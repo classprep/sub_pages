@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <!-- <meta name="description" content="<?=META_DESCRIPTION?>">
 		<meta name="keywords" content="<?=META_KEYWORD?>">
@@ -29,8 +29,13 @@
   		<link href="<?=BASE_DIR?>/css/classprep.style.css" rel="stylesheet"> -->
     <!-- endbuild -->
     <!-- <link href="<?=LIB_VENDOR_DIR?>/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.9/css/uikit.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.9/js/uikit.min.js"></script>
     <style>
+    @import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+   *{
+     font-family: 'Nanum Barun Gothic', sans-serif;
+   }
         body {
             background: #F3F7FE;
         }
@@ -64,11 +69,13 @@
     <div class="container">
 
         <div class="uk-article">
-            <h1 class="uk-article-title">
-							Terms of Service
-						</h1>
-            <hr class="uk-article-divider">
-        </div>
+    			<div class="uk-container uk-margin">
+    				<h1 class="uk-article-title">
+    								Terms of Service
+    							</h1>
+    			</div>
+    			<hr class="uk-article-divider">
+    		</div>
 
         <div class="uk-container uk-margin">
             <b>제1조 (목적)</b>

@@ -3,8 +3,8 @@
 
 <head>
 	<meta charset="utf-8">
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- <meta name="description" content="<?=META_DESCRIPTION?>">
 		<meta name="keywords" content="<?=META_KEYWORD?>">
 		<meta name="author" content="<?=META_AUTHOR?>"> -->
@@ -29,7 +29,8 @@
 		<link href="<?=BASE_DIR?>/css/classprep.style.css" rel="stylesheet"> -->
 	<!-- endbuild -->
 	<!-- <link href="<?=LIB_VENDOR_DIR?>/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.9/css/uikit.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.9/js/uikit.min.js"></script>
 	<script>
 		(function(i, s, o, g, r, a, m) {
 			i['GoogleAnalyticsObject'] = r;
@@ -47,6 +48,10 @@
 	</script>
 
 	<style>
+	@import url(https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css);
+ *{
+	 font-family: 'Nanum Barun Gothic', sans-serif;
+ }
 		body {
 			background: #F3F7FE;
 		}
@@ -70,9 +75,11 @@
 	<div class="container">
 
 		<div class="uk-article">
-			<h1 class="uk-article-title">
-							Privacy Policy
-						</h1>
+			<div class="uk-container uk-margin">
+				<h1 class="uk-article-title">
+								Privacy Policy
+							</h1>
+			</div>
 			<hr class="uk-article-divider">
 		</div>
 
